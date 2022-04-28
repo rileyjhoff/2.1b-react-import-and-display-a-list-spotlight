@@ -3,7 +3,7 @@ import CarItem from './CarItem';
 
 export default function CarList({ cars }) {
   return (
-    <div className='car-list'>
+    <div className='car-list lists'>
       {cars.map(car =>
         <CarItem key={car.make} car={car} />
       )}

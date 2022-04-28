@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.lists {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.cards {
+  border: 1px black solid;
+  padding: 10px;
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  margin: 5px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+h3 {
+  margin: 5px 0 10px;
+}
+
+h4 {
+  margin: 10px 0;
+}
