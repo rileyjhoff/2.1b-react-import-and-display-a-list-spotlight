@@ -44,20 +44,51 @@
 }
 
 .cards {
-  border: 1px black solid;
+  border: 4px black double;
+  border-radius: 5px;
   padding: 10px;
-  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 5px 0px rgba(45,45,45,0.5);
   margin: 5px;
 }
 
 p {
-  margin: 5px 0;
+  margin: 5px;
 }
 
 h3 {
-  margin: 5px 0 10px;
+  margin: 5px 5px 10px;
 }
 
 h4 {
-  margin: 10px 0;
+  margin: 10px 5px;
+}
+
+.state-item {
+  width: 170px;
+}
+
+.mario-item {
+  width: 200px;
+}
+
+.car-item {
+  width: 155px;
+}
+
+.car-item > p {
+  text-align: left;
+  padding-left: 8px;
+}
+
+.nba-item {
+  width: 252px;
+}
+
+.nba-item .starter {
+  text-align: left;
+  padding-left: 26px;
+}
+
+.nba-item .championship-years {
+  padding: 0 26px;
 }

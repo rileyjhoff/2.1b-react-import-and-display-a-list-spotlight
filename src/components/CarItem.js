@@ -4,9 +4,9 @@ export default function CarItem({ car: { make, model, mpg: { city, highway }, ms
   return (
     <div className='car-item cards'>
       <h3>{make} {model}</h3>
-      <p>City MPG: {city}</p>
-      <p>Highway MPG: {highway}</p>
       <p>MSRP: {msrp}</p>
+      <p>Highway MPG: {highway}</p>
+      <p>City MPG: {city}</p>
     </div>
   );
 }

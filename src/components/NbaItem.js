@@ -9,12 +9,12 @@ export default function NbaItem({ team: { team: { city, name }, starters, coach,
       <div className='starting-lineup'>
         <h4>Starting Lineup:</h4>
         {starters.map(starter => 
-          <p key={starter.name}>{starter.name} | {starter.position} | {starter.age}</p>
+          <p className='starter' key={starter.name}>{starter.name} | {starter.position} | {starter.age}</p>
         )}
       </div>
       <div className='championships'>
         <h4>Championships:</h4>
-        <p>
+        <p className='championship-years'>
           {championships.map(championship => 
             championship + ' '
           )}
